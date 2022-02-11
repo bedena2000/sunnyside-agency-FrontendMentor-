@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Bebas+Neue&family=Fraunces:wght@700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Supermercado+One&family=Syne+Tactile&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+}
+
+// Global Styles
+
+a {
+  text-transform: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+// Header Section
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  &-logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
+  &-nav-menu {
+    display: flex;
+    align-items: center;
+    &-item {
+      &-link {
+        text-decoration: none;
+        font-family: 'Barlow', sans-serif;
+        font-size: 16px;
+        margin-right: 30px;
+        color: white;
+        &-btn {
+          padding: 15px;
+          background-color: hsl(210, 4%, 67%);
+          border-radius: 40px;
+          font-size: 16px;
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+// Main Section
+
+.main {
+  background-image: url('../../img/images/desktop/image-header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 260px;
+  &-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 100px;
+  }
+  &-arrow {
+    text-align: center;
+    font-size: 64px;
+    color: black;
+    color: white;
+    margin-top: 100px;
+  }
+}
