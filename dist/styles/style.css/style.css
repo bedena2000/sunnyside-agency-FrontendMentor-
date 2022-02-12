@@ -12,6 +12,7 @@ body {
   font-family: "Barlow", sans-serif;
   font-family: "Fraunces", serif;
   font-size: 18px;
+  background-color: #f7f7f7;
 }
 
 a {
@@ -177,12 +178,193 @@ li {
   background-image: url("../../img/images/desktop/image-stand-out.jpg");
 }
 
+.row-3 {
+  background-color: #f7f7f7;
+}
+.row-3-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
 .row-3-left {
+  background-image: url("../../img/images/desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 720px;
   height: 600px;
-  border: 1px solid black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+.row-3-left-2 {
+  background-image: url("../../img/images/desktop/image-photography.jpg");
 }
 .row-3-left-info {
   text-align: center;
   width: 600px;
+  margin: 0 auto;
+}
+.row-3-left-info-title {
+  font-size: 36px;
+  color: #19536b;
+  margin-bottom: 40px;
+}
+.row-3-left-info-description {
+  color: #7a7a7a;
+  width: 430px;
+  margin: 0 auto;
+}
+
+.testimonials {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.testimonials-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.testimonials-title {
+  text-align: center;
+  color: #7a7a7a;
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-bottom: 100px;
+}
+.testimonials-wrapper-item {
+  width: 30%;
+  text-align: center;
+}
+.testimonials-wrapper-item img {
+  border-radius: 100%;
+  margin-bottom: 60px;
+}
+.testimonials-wrapper-item-description {
+  font-size: 26px;
+  font-family: "Barlow", sans-serif;
+  color: #7a7a7a;
+  margin-bottom: 60px;
+}
+.testimonials-wrapper-item-authors-name {
+  font-weight: 900;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.testimonials-wrapper-item-authors-job {
+  color: #7a7a7a;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+}
+
+.pictures {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pictures-item {
+  width: 25%;
+}
+.pictures-item-1 {
+  background-image: url("../../img/images/desktop/image-gallery-milkbottles.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 894px;
+}
+.pictures-item-2 {
+  background-image: url("../../img/images/desktop/image-gallery-orange.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 894px;
+}
+.pictures-item-3 {
+  background-image: url("../../img/images/desktop/image-gallery-cone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 894px;
+}
+.pictures-item-4 {
+  background-image: url("../../img/images/desktop/image-gallery-sugarcubes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 894px;
+}
+
+.footer {
+  background-color: #a7abae;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.footer-title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 60px;
+  color: #25564b;
+}
+.footer-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.footer-nav-item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #7a7a7a;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+  margin-bottom: 100px;
+}
+.footer-nav-item:hover {
+  color: white;
+}
+.footer-social-fb {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.footer-social-instagram {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.footer-social-twitter {
+  margin-right: 20px;
+  cursor: pointer;
 }
